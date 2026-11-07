@@ -1,0 +1,16 @@
+# 数据文件不入库（体积大），用 README 里的链接自行下载
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
